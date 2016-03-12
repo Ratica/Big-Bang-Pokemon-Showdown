@@ -1396,7 +1396,7 @@ var commands = exports.commands = {
 
 		if (targetUser) targetUser.updateIdentity();
 	},
-	promotehelp: ["/promote [username], [group] - Promotes the user to the specified group. Requires: & ~"],
+	promotehelp: ["/promote [username], [group] - Promotes the user to the specified group. Requires: User & ~"],
 
 	globaldemote: 'demote',
 	demote: function (target) {
